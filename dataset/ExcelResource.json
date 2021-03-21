@@ -12,7 +12,8 @@
 			"location": {
 				"type": "AzureFileStorageLocation",
 				"fileName": "Resource.xlsx"
-			}
+			},
+			"range": "A2"
 		},
 		"schema": [
 			{
