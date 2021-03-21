@@ -24,8 +24,7 @@
 						}
 					},
 					"sink": {
-						"type": "AzureSqlSink",
-						"sqlWriterStoredProcedureName": "[dbo].[ProcessResource]"
+						"type": "AzureSqlSink"
 					},
 					"enableStaging": false,
 					"translator": {
