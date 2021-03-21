@@ -24,7 +24,8 @@
 						}
 					},
 					"sink": {
-						"type": "AzureSqlSink"
+						"type": "AzureSqlSink",
+						"sqlWriterStoredProcedureName": "[dbo].[ProcessResource]"
 					},
 					"enableStaging": false,
 					"translator": {
@@ -51,9 +52,7 @@
 								"sink": {
 									"name": "Value",
 									"type": "Decimal",
-									"physicalType": "decimal",
-									"scale": 5,
-									"precision": 22
+									"physicalType": "decimal"
 								}
 							},
 							{
