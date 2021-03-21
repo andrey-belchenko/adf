@@ -32,7 +32,6 @@
 						"mappings": [
 							{
 								"source": {
-									"type": "String",
 									"physicalType": "String",
 									"ordinal": 1
 								},
@@ -44,8 +43,7 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 2
+									"ordinal": 1
 								},
 								"sink": {
 									"name": "Value",
@@ -57,8 +55,8 @@
 							},
 							{
 								"source": {
-									"type": "String",
-									"ordinal": 3
+									"physicalType": "String",
+									"ordinal": 1
 								},
 								"sink": {
 									"name": "ResourceId",
