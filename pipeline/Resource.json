@@ -32,8 +32,9 @@
 						"mappings": [
 							{
 								"source": {
-									"physicalType": "String",
-									"ordinal": 1
+									"name": "ResourceName",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "Name",
@@ -43,7 +44,9 @@
 							},
 							{
 								"source": {
-									"ordinal": 1
+									"name": "ResourceOvertimeRate",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "Value",
@@ -55,8 +58,9 @@
 							},
 							{
 								"source": {
-									"physicalType": "String",
-									"ordinal": 1
+									"name": "ResourceId",
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "ResourceId",
