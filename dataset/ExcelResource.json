@@ -1,5 +1,5 @@
 {
-	"name": "Excel1",
+	"name": "ExcelResource",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "fileshare1",

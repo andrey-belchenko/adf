@@ -1,0 +1,32 @@
+{
+	"name": "dwhResource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dwh",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Value",
+				"type": "decimal",
+				"precision": 22,
+				"scale": 5
+			},
+			{
+				"name": "ResourceId",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Resource"
+		}
+	}
+}
